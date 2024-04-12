@@ -20,4 +20,9 @@ public class EquilateralTriangle implements Shape {
     public double calculatePerimeter() {
         return 3*side;
     }
+
+    @Override
+    public String getShapeName() {
+        return "triangle";
+    }
 }

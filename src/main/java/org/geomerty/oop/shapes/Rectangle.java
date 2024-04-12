@@ -19,4 +19,9 @@ public class Rectangle implements Shape {
     public double calculatePerimeter() {
         return 2*(height+width);
     }
+
+    @Override
+    public String getShapeName() {
+        return "rectangle";
+    }
 }
